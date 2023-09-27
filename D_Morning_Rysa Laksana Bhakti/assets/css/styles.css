@@ -18,6 +18,18 @@
 }
 /* Variables end */
 
+
+ /* Gaya untuk pemutar audio */
+ audio {
+  opacity: 0.7; /* Atur tingkat transparansi sesuai kebutuhan (0 hingga 1) */
+}
+
+/* Gaya untuk tampilan kontrol pemutar audio */
+audio::-webkit-media-controls-panel {
+  background: rgba(0, 0, 0, 0.5); 
+  border-radius: 10px; 
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -317,18 +329,7 @@ nav ul li {
 }
 
 
-/*Scroll to top*/
-.scroll-up {
-  position: fixed;
-  right: 0.5%;
-  bottom: 3%;
-  cursor: pointer;
-}
 
-.up-arrow {
-  width: 3rem;
-  height: 3rem;
-}
 
 /*footer*/
 footer {
